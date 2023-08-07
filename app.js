@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => console.log(`Server up:  PORT:${PORT}`));
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './views/home.html'))
 })
 
@@ -31,7 +31,7 @@ app.get('/login', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-    res.redirect('/home')
+    res.redirect('/')
 });
 
 
