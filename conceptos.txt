@@ -1,0 +1,9 @@
+HTML:
+
+El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos
+
+Etiquetas y sus comportamientos por defecto https://htmlreference.io/
+
+Elementos de bloque acupan el 100% del ancho disponible y se le puede especificar el alto (height) y el ancho ( width );
+
+Elemento de linea: Sólo ocupa el espacio que ocupa su contenido.
