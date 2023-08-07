@@ -6,7 +6,7 @@ const path = require('path');
 
 app.use(express.static('public'));
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => console.log(`Server up:  PORT:${PORT}`));
 
